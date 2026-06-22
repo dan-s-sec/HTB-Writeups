@@ -70,7 +70,7 @@ After adding `facts.htb` to `/etc/hosts`, source code inspection of the main web
 ```
 *Figure 2: Source code snippet revealing the Camaleon CMS theme.*
 
-Registering a new user account and navigating to `facts.htb/admin` confirmed the software version as **2.9.0**, which is publicly known to be vulnerable to CVE-2025-2304.
+Navigating to `facts.htb/admin` and registering a new account, confirmed the software version as **2.9.0**, which is publicly known to be vulnerable to CVE-2025-2304.
 
 ### 3.2 Initial Access (Exploitation)
 *Execution of the identified vulnerabilities to achieve a user-level foothold.*
